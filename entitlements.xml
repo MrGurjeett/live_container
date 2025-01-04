@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>application-identifier</key>
+	<string>com.kdt.livecontainer</string>
+	<key>com.apple.developer.kernel.extended-virtual-addressing</key>
+	<true/>
+	<key>com.apple.developer.kernel.increased-memory-limit</key>
+	<true/>
+	<key>com.apple.security.application-groups</key>
+	<array>
+		<string>group.com.SideStore.SideStore</string>
+		<string>group.com.rileytestut.AltStore</string>
+	</array>
+	<key>get-task-allow</key>
+	<true/>
+
+	<key>keychain-access-groups</key>
+	<array>
+        <string>*.com.kdt.livecontainer.shared</string>
+        <string>*.com.kdt.livecontainer.shared.1</string>
+        <string>*.com.kdt.livecontainer.shared.2</string>
+	</array>
+</dict>
+</plist>
